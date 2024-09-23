@@ -4,9 +4,9 @@
 
 Figure 4.1 shows how it should look now
 
-![Figure 4.1](/1stsem_23-24/activities/exercise4-initial.png)
+![Figure 4.1](/1stsem_24-25/activities/exercise4-initial.png)
 
 3. Follow comments instructions in html and css file to achieve the final look
 
-![Figure 4.2](/1stsem_23-24/activities/exercise4-output.png)
+![Figure 4.2](/1stsem_24-25/activities/exercise4-output.png)
 

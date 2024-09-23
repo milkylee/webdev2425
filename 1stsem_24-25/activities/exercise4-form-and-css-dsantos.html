@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add the style.css file here using external style sheet  -->
+    
+
+    <!-- Using embedded style sheets, set the body selector's font-family to Arial; font-size to 16px; and padding: 6px;-->
+
+    
+    <title>Booking Form</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <center>
+                    <!-- Using inline styles, override body's Arial font-family to Times New Roman in heading 2-->
+                    <h2>Booking Form</h2>
+                </center>
+                <form action="form.php" method="POST">
+                    <div class="row">
+                        <div class="col-50">
+                            <input type="text" id="name" name="name" required placeholder="Participant's name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-50">
+                            <!--Create a dropdown list with attribute name education_label and set the option list to College student, School student, Faculty and Others-->
+                        </div>
+                        <div class="col-50">
+                            <input type="date" name="date"></input>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-50">
+                            <label>Your Project Type (Science)</label><br><br>
+                            <input type="checkbox" name="technicalmachinery" value="Yes">Technical Machinery<br><br>
+                            <input type="checkbox" name="technical_computers" value="Yes">Technical Computers<br><br>
+                            <input type="checkbox" name="technical_research" value="Yes">Technical Research<br><br>
+                            <!--Create 2 new checkboxes; assign the name attibute to electronics and other theme and set the value attribute to Yes -->
+                        </div>
+                        <div class="col-50">
+                            <label>Your Project Type (Art)</label><br><br>
+                            <input type="checkbox" name="History" value="Yes">History<br><br>
+                            <input type="checkbox" name="political_science" value="Yes">Political Science<br><br>
+                            <input type="checkbox" name="design_art" value="Yes">Design Art<br><br>
+                            <input type="checkbox" name="paintings" value="Yes">Paintings<br><br>
+                            <input type="checkbox" name="other_theme" value="Yes">Other Art Theme<br><br>
+                        </div>
+                    </div>
+                    <h3>Contact Information</h3>
+                    <div class="row">
+                        <div class="col-50">
+                            <!--Set the name attribute's value to email-->
+                            <input type="email" required placeholder="Email">
+                        </div>
+                        <div class="col-50">
+                            <!--Set the name attribute's value to phone-->
+                            <input type="number" required placeholder="Phone">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-50">
+                            <!--Set the id attribute's value to address-->
+                            <textarea name="address" placeholder="Street Address" rows="3" required></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!--Create new div with class attribute's value col-50. Inside that div, create input box with name's attribute value city and placeholder attribute's value City -->
+                        <div class="col-50">
+                            <input type="text" name="state" required placeholder="State">
+                        </div>
+                    </div>
+                    <!-- Enclose this 2 divs with new div with class attribute value "row"-->
+                    <div class="col-50">
+                        <input type="number" name="zip_code" required placeholder="Zip Code">
+                    </div>
+                    <div class="col-50">
+                        <input type="text" name="country" required placeholder="Country">
+                    </div>
+                    <!--Set button's class attribute value to btn-->
+                    <input type="submit" value="Book Now">
+            </div>
+        </div>
+    </div>
+    </form>
+    </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
